@@ -1,0 +1,46 @@
+.body {
+  display: flex;
+  padding-left: 16px;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #333;
+}
+
+.contenido {
+  width: 70%;
+  padding: 32px;
+}
+
+.repos-box {
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+
+}
+
+.portfile-img {
+  width: 60%;
+  margin: 32px;
+  align-self: center;
+}
+
+.description {
+  background-color: #CCCCCC;
+  margin: 60px;
+  padding: 16px;
+  border-radius: 8px
+}
+
+.description-title {
+  width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
