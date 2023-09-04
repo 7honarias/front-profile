@@ -5,6 +5,7 @@
 
 .aside {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   width: 30%;
   background-color: #333;

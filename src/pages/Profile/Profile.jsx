@@ -8,7 +8,6 @@ export default function Profile() {
   const { id } = useParams();
   const user = useSelector((e) => e.portfile);
   const repositories = useSelector((e) => e.repositories);
-  console.log(id);
   const dispatch = useDispatch();
 
   useEffect(() => {
